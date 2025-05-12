@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Новая коллекция 2025 - Vitrin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#AE4E04',secondary:''},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.custom-checkbox {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.custom-checkbox:hover input ~ .checkmark {
+  border-color: #aaa;
+}
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #AE4E04;
+  border-color: #AE4E04;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+.custom-checkbox .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.custom-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+}
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #AE4E04;
+  cursor: pointer;
+}
+.custom-range::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #AE4E04;
+  cursor: pointer;
+  border: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 24px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #AE4E04;
+}
+input:checked + .slider:before {
+  transform: translateX(22px);
+}
+.color-filter {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.color-filter.active {
+  transform: scale(1.2);
+  border-width: 2px;
+  border-color: #AE4E04;
+}
+.size-filter {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.size-filter.active {
+  background-color: #f3f4f6;
+  border-color: #AE4E04;
+  color: #AE4E04;
+}
+.category-filter.active {
+  color: #AE4E04;
+  font-weight: 600;
+}
+</style>
+</head>
+<body class="bg-white">
+<!-- Верхняя информационная панель -->
+<div class="bg-gray-100 py-2">
+  <div class="container mx-auto px-4 flex justify-between items-center">
+    <div class="text-sm text-gray-600">
+      <span>Бесплатная доставка от 5000₽</span>
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href="tel:+79001234567" class="text-sm text-gray-600 flex items-center">
+        <div class="w-5 h-5 flex items-center justify-center mr-1">
+          <i class="ri-phone-line"></i>
+        </div>
+        +7 (900) 123-45-67
+      </a>
+      <a href="https://t.me/vitrin" target="_blank" class="text-sm text-gray-600 flex items-center">
+        <div class="w-5 h-5 flex items-center justify-center mr-1">
+          <i class="ri-telegram-fill"></i>
+        </div>
+        Telegram
+      </a>
+      <a href="https://vk.com/vitrin" target="_blank" class="text-sm text-gray-600 flex items-center">
+        <div class="w-5 h-5 flex items-center justify-center mr-1">
+          <i class="ri-vk-fill"></i>
+        </div>
+        VK
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Основная навигация -->
+<header class="bg-white py-4 shadow-sm sticky top-0 z-50">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-between items-center">
+      <a href="#" class="text-3xl font-['Pacifico'] text-primary">Vitrin</a>
+      <nav class="hidden md:flex space-x-8">
+        <a href="https://readdy.ai/home/b13949b8-9177-4fb9-9b25-35f2d078b09b/d8cb7a31-db1e-4236-bde9-695486d8daed" data-readdy="true" class="font-medium text-gray-800 hover:text-primary transition">Главная</a>
+        <a href="#" class="font-medium text-primary transition">Новая коллекция</a>
+        <a href="#" class="font-medium text-gray-800 hover:text-primary transition">Каталог</a>
+        <a href="#" class="font-medium text-gray-800 hover:text-primary transition">О нас</a>
+        <a href="#" class="font-medium text-gray-800 hover:text-primary transition">Контакты</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary transition">
+          <i class="ri-search-line ri-xl"></i>
+        </button>
+        <button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:text-primary transition relative">
+          <i class="ri-shopping-bag-line ri-xl"></i>
+          <span class="absolute -top-1 -right-1 bg-primary text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">3</span>
+        </button>
+        <button class="w-10 h-10 md:hidden flex items-center justify-center text-gray-700">
+          <i class="ri-menu-line ri-xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Заголовок коллекции -->
+<section class="relative h-[400px] overflow-hidden">
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=luxury%2520fashion%2520collection%25202025%2520with%2520elegant%2520models%2520wearing%2520stylish%2520designer%2520clothing%2520on%2520a%2520minimalist%2520runway%2520with%2520soft%2520lighting%2520and%2520neutral%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520fashion%2520show%2520atmosphere&width=1600&height=800&seq=1&orientation=landscape');">
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+  </div>
+  <div class="container mx-auto px-4 h-full flex items-center relative z-10">
+    <div class="max-w-2xl text-white">
+      <h1 class="text-5xl font-bold mb-4">Новая коллекция 2025</h1>
+      <p class="text-xl mb-6">Эксклюзивная коллекция, сочетающая элегантность и современный стиль. Создана для тех, кто ценит качество и индивидуальность в каждой детали.</p>
+      <div class="flex space-x-4">
+        <a href="#collection" class="bg-primary hover:bg-opacity-90 text-white px-8 py-3 text-lg font-medium !rounded-button whitespace-nowrap">Смотреть товары</a>
+        <a href="#filters" class="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-3 text-lg font-medium !rounded-button whitespace-nowrap transition-colors">Фильтры</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Хлебные крошки -->
+<div class="bg-gray-50 py-3">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center text-sm text-gray-600">
+      <a href="https://readdy.ai/home/b13949b8-9177-4fb9-9b25-35f2d078b09b/d8cb7a31-db1e-4236-bde9-695486d8daed" data-readdy="true" class="hover:text-primary">Главная</a>
+      <span class="mx-2">/</span>
+      <span class="text-primary">Новая коллекция 2025</span>
+    </div>
+  </div>
+</div>
+
+<!-- Основной контент -->
+<section id="collection" class="py-12">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col lg:flex-row gap-8">
+      <!-- Фильтры -->
+      <div id="filters" class="lg:w-1/4">
+        <div class="bg-white p-6 rounded shadow-md sticky top-24">
+          <div class="flex justify-between items-center mb-6">
+            <h3 class="text-xl font-bold">Фильтры</h3>
+            <button id="resetFilters" class="text-sm text-gray-500 hover:text-primary">Сбросить все</button>
+          </div>
+          
+          <!-- Категории -->
+          <div class="mb-6 border-b border-gray-100 pb-6">
+            <h4 class="text-lg font-semibold mb-4">Категории</h4>
+            <div class="space-y-3">
+              <div class="category-filter active flex items-center justify-between cursor-pointer">
+                <span>Все категории</span>
+                <span class="text-gray-400">(42)</span>
+              </div>
+              <div class="category-filter flex items-center justify-between cursor-pointer">
+                <span>Платья</span>
+                <span class="text-gray-400">(12)</span>
+              </div>
+              <div class="category-filter flex items-center justify-between cursor-pointer">
+                <span>Костюмы</span>
+                <span class="text-gray-400">(8)</span>
+              </div>
+              <div class="category-filter flex items-center justify-between cursor-pointer">
+                <span>Верхняя одежда</span>
+                <span class="text-gray-400">(10)</span>
+              </div>
+              <div class="category-filter flex items-center justify-between cursor-pointer">
+                <span>Блузки и рубашки</span>
+                <span class="text-gray-400">(6)</span>
+              </div>
+              <div class="category-filter flex items-center justify-between cursor-pointer">
+                <span>Брюки и джинсы</span>
+                <span class="text-gray-400">(6)</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Размеры -->
+          <div class="mb-6 border-b border-gray-100 pb-6">
+            <h4 class="text-lg font-semibold mb-4">Размеры</h4>
+            <div class="flex flex-wrap gap-2">
+              <div class="size-filter w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">XS</div>
+              <div class="size-filter w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">S</div>
+              <div class="size-filter active w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">M</div>
+              <div class="size-filter w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">L</div>
+              <div class="size-filter w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">XL</div>
+              <div class="size-filter w-10 h-10 border border-gray-300 rounded-full flex items-center justify-center text-sm">XXL</div>
+            </div>
+          </div>
+          
+          <!-- Цвета -->
+          <div class="mb-6 border-b border-gray-100 pb-6">
+            <h4 class="text-lg font-semibold mb-4">Цвета</h4>
+            <div class="flex flex-wrap gap-3">
+              <div class="color-filter w-8 h-8 rounded-full bg-white border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-black border border-gray-300"></div>
+              <div class="color-filter active w-8 h-8 rounded-full bg-red-600 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-blue-600 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-green-600 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-yellow-400 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-pink-400 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-purple-600 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-gray-400 border border-gray-300"></div>
+              <div class="color-filter w-8 h-8 rounded-full bg-brown-500 border border-gray-300"></div>
+            </div>
+          </div>
+          
+          <!-- Цена -->
+          <div class="mb-6 border-b border-gray-100 pb-6">
+            <h4 class="text-lg font-semibold mb-4">Цена</h4>
+            <div>
+              <div class="flex justify-between mb-2">
+                <span class="text-sm text-gray-500">1 000 ₽</span>
+                <span class="text-sm text-gray-500">50 000 ₽</span>
+              </div>
+              <input type="range" min="1000" max="50000" value="25000" class="custom-range mb-4">
+              <div class="flex justify-between items-center">
+                <input type="number" value="1000" class="w-24 p-2 border border-gray-300 rounded text-sm text-center" placeholder="От">
+                <span class="mx-2">—</span>
+                <input type="number" value="25000" class="w-24 p-2 border border-gray-300 rounded text-sm text-center" placeholder="До">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Скидки -->
+          <div class="mb-6">
+            <div class="flex items-center justify-between">
+              <h4 class="text-lg font-semibold">Только со скидкой</h4>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+          
+          <!-- Кнопки применения фильтров -->
+          <div class="flex space-x-3">
+            <button id="applyFilters" class="bg-primary hover:bg-opacity-90 text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap flex-1">Применить</button>
+            <button id="clearFilters" class="border border-gray-300 text-gray-700 hover:border-gray-400 px-6 py-2 font-medium !rounded-button whitespace-nowrap">Сбросить</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Товары -->
+      <div class="lg:w-3/4">
+        <!-- Сортировка и вид отображения -->
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
+          <div class="flex items-center">
+            <span class="text-gray-600 mr-2">Сортировать:</span>
+            <div class="relative">
+              <button id="sortDropdown" class="border border-gray-300 rounded px-4 py-2 text-sm flex items-center">
+                По новизне
+                <div class="w-4 h-4 flex items-center justify-center ml-2">
+                  <i class="ri-arrow-down-s-line"></i>
+                </div>
+              </button>
+              <div id="sortOptions" class="hidden absolute left-0 top-full mt-1 bg-white border border-gray-300 rounded shadow-lg z-10 w-48">
+                <div class="py-1">
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">По новизне</a>
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">По популярности</a>
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">По возрастанию цены</a>
+                  <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">По убыванию цены</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button class="w-10 h-10 flex items-center justify-center border border-primary rounded bg-white text-primary">
+              <i class="ri-layout-grid-line"></i>
+            </button>
+            <button class="w-10 h-10 flex items-center justify-center border border-gray-300 rounded hover:border-primary hover:text-primary">
+              <i class="ri-list-check"></i>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Результаты поиска -->
+        <div class="mb-6">
+          <p class="text-gray-600">Найдено 42 товара в коллекции</p>
+        </div>
+        
+        <!-- Сетка товаров -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Товар 1 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520red%2520evening%2520dress%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=101&orientation=portrait" alt="Вечернее платье" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Вечернее платье "Рубин"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">18 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-black border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-blue-900 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XS</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 2 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520business%2520suit%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=102&orientation=portrait" alt="Деловой костюм" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Деловой костюм "Бизнес"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">22 490 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-gray-700 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-blue-900 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XL</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 3 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520cashmere%2520coat%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=103&orientation=portrait" alt="Кашемировое пальто" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Кашемировое пальто "Люкс"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">29 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-gray-300 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-black border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XL</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 4 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520silk%2520blouse%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=104&orientation=portrait" alt="Шелковая блузка" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Шелковая блузка "Элегантность"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">8 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-white border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-blue-400 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XS</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 5 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520designer%2520jeans%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=105&orientation=portrait" alt="Дизайнерские джинсы" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Дизайнерские джинсы "Модерн"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">7 490 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-blue-800 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-blue-600 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">25</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">26</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">27</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">28</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 6 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520leather%2520jacket%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=106&orientation=portrait" alt="Кожаная куртка" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Кожаная куртка "Авангард"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">19 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-black border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XL</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 7 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520cocktail%2520dress%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=107&orientation=portrait" alt="Коктейльное платье" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Коктейльное платье "Вечер"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">12 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-black border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-emerald-600 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XS</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 8 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520wool%2520sweater%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=108&orientation=portrait" alt="Шерстяной свитер" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Шерстяной свитер "Уют"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">6 490 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-red-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-blue-600 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-gray-300 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XL</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Товар 9 -->
+          <div class="bg-white rounded overflow-hidden shadow-md hover:shadow-lg transition">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://readdy.ai/api/search-image?query=elegant%2520womens%2520trench%2520coat%2520on%2520minimalist%2520white%2520background%252C%2520professional%2520fashion%2520photography%252C%2520high-end%2520product%2520display%252C%2520soft%2520lighting%252C%2520luxury%2520retail%2520presentation%252C%2520no%2520models%252C%2520just%2520product%2520display%2520on%2520neutral%2520background&width=600&height=800&seq=109&orientation=portrait" alt="Тренч" class="w-full h-full object-cover object-top">
+              <div class="absolute top-3 left-3">
+                <span class="bg-primary text-white text-xs px-3 py-1 rounded">Новинка</span>
+              </div>
+              <button class="absolute top-3 right-3 w-8 h-8 flex items-center justify-center bg-white rounded-full shadow-md hover:text-primary transition">
+                <i class="ri-heart-line"></i>
+              </button>
+            </div>
+            <div class="p-4">
+              <h3 class="text-lg font-medium mb-1">Тренч "Классик"</h3>
+              <p class="text-gray-500 text-sm mb-3">Коллекция 2025</p>
+              <div class="flex justify-between items-center mb-3">
+                <div>
+                  <span class="text-xl font-bold">15 990 ₽</span>
+                </div>
+                <div class="flex space-x-1">
+                  <span class="w-4 h-4 rounded-full bg-yellow-700 border border-gray-300"></span>
+                  <span class="w-4 h-4 rounded-full bg-gray-300 border border-gray-300"></span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">S</button>
+                  <button class="w-8 h-8 border border-primary text-primary rounded-full text-sm">M</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">L</button>
+                  <button class="w-8 h-8 border border-gray-300 rounded-full text-sm hover:border-primary hover:text-primary">XL</button>
+                </div>
+                <button class="bg-primary hover:bg-opacity-90 text-white p-2 rounded !rounded-button whitespace-nowrap">
+                  <i class="ri-shopping-cart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Пагинация -->
+        <div class="mt-10 flex justify-center">
+          <nav class="flex items-center">
+            <button class="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-l-lg hover:border-primary hover:text-primary">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="w-10 h-10 flex items-center justify-center border-t border-b border-primary bg-primary text-white">1</button>
+            <button class="w-10 h-10 flex items-center justify-center border-t border-b border-gray-300 hover:border-primary hover:text-primary">2</button>
+            <button class="w-10 h-10 flex items-center justify-center border-t border-b border-gray-300 hover:border-primary hover:text-primary">3</button>
+            <button class="w-10 h-10 flex items-center justify-center border-t border-b border-gray-300 hover:border-primary hover:text-primary">4</button>
+            <button class="w-10 h-10 flex items-center justify-center border-t border-b border-r border-gray-300 hover:border-primary hover:text-primary">5</button>
+            <button class="w-10 h-10 flex items-center justify-center border border-gray-300 rounded-r-lg hover:border-primary hover:text-primary">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Преимущества -->
+<section class="py-12 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center text-primary mb-4">
+          <i class="ri-truck-line ri-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Быстрая доставка</h3>
+        <p class="text-gray-600">Доставка по Москве за 24 часа, по России от 3 до 7 дней</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center text-primary mb-4">
+          <i class="ri-refund-2-line ri-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Возврат и обмен</h3>
+        <p class="text-gray-600">14 дней на возврат и обмен товара без объяснения причин</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center text-primary mb-4">
+          <i class="ri-secure-payment-line ri-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Безопасная оплата</h3>
+        <p class="text-gray-600">Оплата картой, наличными при получении или онлайн</p>
+      </div>
+      <div class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 flex items-center justify-center text-primary mb-4">
+          <i class="ri-customer-service-2-line ri-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Поддержка 24/7</h3>
+        <p class="text-gray-600">Наши консультанты всегда готовы помочь вам с выбором</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Подписка на рассылку -->
+<section class="py-16 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Подпишитесь на нашу рассылку</h2>
+      <p class="text-gray-600 mb-8">Получайте первыми информацию о новых коллекциях, акциях и специальных предложениях</p>
+      <div class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+        <input type="email" placeholder="Ваш email" class="flex-1 px-4 py-3 border border-gray-300 rounded focus:outline-none focus:border-primary">
+        <button class="bg-primary hover:bg-opacity-90 text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap">Подписаться</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Футер -->
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+      <div>
+        <a href="#" class="text-3xl font-['Pacifico'] text-white mb-6 block">Vitrin</a>
+        <p class="text-gray-400 mb-6">Магазин стильной одежды для тех, кто ценит качество и индивидуальность</p>
+        <div class="flex space-x-4">
+          <a href="https://t.me/vitrin" target="_blank" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+            <i class="ri-telegram-fill"></i>
+          </a>
+          <a href="https://vk.com/vitrin" target="_blank" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+            <i class="ri-vk-fill"></i>
+          </a>
+          <a href="https://instagram.com/vitrin" target="_blank" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+            <i class="ri-instagram-line"></i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Категории</h3>
+        <ul class="space-y-3">
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Платья</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Костюмы</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Верхняя одежда</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Блузки и рубашки</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Брюки и джинсы</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Аксессуары</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Информация</h3>
+        <ul class="space-y-3">
+          <li><a href="#" class="text-gray-400 hover:text-white transition">О нас</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Доставка и оплата</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Возврат и обмен</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Политика конфиденциальности</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Публичная оферта</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Контакты</h3>
+        <ul class="space-y-3">
+          <li class="flex items-start">
+            <div class="w-5 h-5 flex items-center justify-center mr-3 mt-1">
+              <i class="ri-map-pin-line"></i>
+            </div>
+            <span class="text-gray-400">г. Москва, ул. Тверская, д. 1, ТЦ "Галерея"</span>
+          </li>
+          <li class="flex items-center">
+            <div class="w-5 h-5 flex items-center justify-center mr-3">
+              <i class="ri-phone-line"></i>
+            </div>
+            <a href="tel:+79001234567" class="text-gray-400 hover:text-white transition">+7 (900) 123-45-67</a>
+          </li>
+          <li class="flex items-center">
+            <div class="w-5 h-5 flex items-center justify-center mr-3">
+              <i class="ri-mail-line"></i>
+            </div>
+            <a href="mailto:info@vitrin.ru" class="text-gray-400 hover:text-white transition">info@vitrin.ru</a>
+          </li>
+          <li class="flex items-center">
+            <div class="w-5 h-5 flex items-center justify-center mr-3">
+              <i class="ri-time-line"></i>
+            </div>
+            <span class="text-gray-400">Пн-Вс: 10:00 - 22:00</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 pt-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 Vitrin. Все права защищены.</p>
+        <div class="flex items-center space-x-4">
+          <div class="w-10 h-6 flex items-center justify-center">
+            <i class="ri-visa-fill ri-lg"></i>
+          </div>
+          <div class="w-10 h-6 flex items-center justify-center">
+            <i class="ri-mastercard-fill ri-lg"></i>
+          </div>
+          <div class="w-10 h-6 flex items-center justify-center">
+            <i class="ri-paypal-fill ri-lg"></i>
+          </div>
+          <div class="w-10 h-6 flex items-center justify-center">
+            <i class="ri-apple-fill ri-lg"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Сортировка
+  const sortDropdown = document.getElementById('sortDropdown');
+  const sortOptions = document.getElementById('sortOptions');
+  
+  if (sortDropdown && sortOptions) {
+    sortDropdown.addEventListener('click', function() {
+      sortOptions.classList.toggle('hidden');
+    });
+    
+    document.addEventListener('click', function(event) {
+      if (!sortDropdown.contains(event.target)) {
+        sortOptions.classList.add('hidden');
+      }
+    });
+    
+    const sortLinks = sortOptions.querySelectorAll('a');
+    sortLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        sortDropdown.querySelector('span') ? sortDropdown.querySelector('span').textContent = this.textContent : sortDropdown.textContent = this.textContent.replace(/\s*\<.*/g, '');
+        sortOptions.classList.add('hidden');
+      });
+    });
+  }
+  
+  // Фильтры категорий
+  const categoryFilters = document.querySelectorAll('.category-filter');
+  categoryFilters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      categoryFilters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+  
+  // Фильтры размеров
+  const sizeFilters = document.querySelectorAll('.size-filter');
+  sizeFilters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      this.classList.toggle('active');
+    });
+  });
+  
+  // Фильтры цветов
+  const colorFilters = document.querySelectorAll('.color-filter');
+  colorFilters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      this.classList.toggle('active');
+    });
+  });
+  
+  // Слайдер цены
+  const priceRange = document.querySelector('.custom-range');
+  const minPriceInput = document.querySelectorAll('input[type="number"]')[0];
+  const maxPriceInput = document.querySelectorAll('input[type="number"]')[1];
+  
+  if (priceRange && minPriceInput && maxPriceInput) {
+    priceRange.addEventListener('input', function() {
+      maxPriceInput.value = this.value;
+    });
+    
+    minPriceInput.addEventListener('input', function() {
+      if (parseInt(this.value) > parseInt(maxPriceInput.value)) {
+        this.value = maxPriceInput.value;
+      }
+    });
+    
+    maxPriceInput.addEventListener('input', function() {
+      if (parseInt(this.value) < parseInt(minPriceInput.value)) {
+        this.value = minPriceInput.value;
+      }
+      priceRange.value = this.value;
+    });
+  }
+  
+  // Кнопки сброса фильтров
+  const resetFiltersBtn = document.getElementById('resetFilters');
+  const clearFiltersBtn = document.getElementById('clearFilters');
+  
+  const resetAllFilters = function() {
+    // Сброс категорий
+    categoryFilters.forEach((filter, index) => {
+      filter.classList.remove('active');
+      if (index === 0) filter.classList.add('active');
+    });
+    
+    // Сброс размеров
+    sizeFilters.forEach(filter => {
+      filter.classList.remove('active');
+    });
+    
+    // Сброс цветов
+    colorFilters.forEach(filter => {
+      filter.classList.remove('active');
+    });
+    
+    // Сброс цены
+    if (priceRange && minPriceInput && maxPriceInput) {
+      priceRange.value = 25000;
+      minPriceInput.value = 1000;
+      maxPriceInput.value = 25000;
+    }
+    
+    // Сброс переключателя скидок
+    const discountSwitch = document.querySelector('.switch input');
+    if (discountSwitch) {
+      discountSwitch.checked = false;
+    }
+  };
+  
+  if (resetFiltersBtn) {
+    resetFiltersBtn.addEventListener('click', resetAllFilters);
+  }
+  
+  if (clearFiltersBtn) {
+    clearFiltersBtn.addEventListener('click', resetAllFilters);
+  }
+  
+  // Добавление товара в корзину (анимация)
+  const addToCartButtons = document.querySelectorAll('button:not(.custom-checkbox)');
+  addToCartButtons.forEach(button => {
+    if (button.innerHTML.includes('ri-shopping-cart-line')) {
+      button.addEventListener('click', function() {
+        const cartCount = document.querySelector('.ri-shopping-bag-line').nextElementSibling;
+        const currentCount = parseInt(cartCount.textContent);
+        cartCount.textContent = currentCount + 1;
+        
+        // Анимация
+        button.classList.add('bg-green-600');
+        setTimeout(() => {
+          button.classList.remove('bg-green-600');
+        }, 300);
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
